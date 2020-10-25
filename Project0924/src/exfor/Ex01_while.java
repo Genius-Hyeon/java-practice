@@ -13,6 +13,6 @@ public class Ex01_while {
 			}
 			i++;
 		}
-		System.out.println("1ºÎÅÍ 20±îÁö ¼ö Áß È¦¼ö ÇÕ°è: " + sum);
+		System.out.println("1ë¶€í„° 20ê¹Œì§€ì˜ í™€ìˆ˜ í•©ê³„: " + sum);
 	}
 }
