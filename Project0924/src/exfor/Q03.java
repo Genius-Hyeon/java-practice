@@ -6,7 +6,7 @@ public class Q03 {
 
 		Scanner scan = new Scanner(System.in);
 
-		System.out.print("¼ýÀÚ¸¦ ÀÔ·Â: ");
+		System.out.print("Â¼Ã½Ã€ÃšÂ¸Â¦ Ã€Ã”Â·Ã‚: ");
 			
 		int a = scan.nextInt();
 		
@@ -14,7 +14,7 @@ public class Q03 {
 		for(int i = 0; i < a+1; i+=7) {
 			max = i; 
 		}
-		System.out.println("½ÇÇà °á°ú >> " + max);
+		System.out.println("ì‹¤í–‰ ê²°ê³¼ >> " + max);
 		scan.close();
 	}
 }
