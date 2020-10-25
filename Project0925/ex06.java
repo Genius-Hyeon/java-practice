@@ -11,25 +11,25 @@ public class ex06 {
 		Scanner scan = new Scanner(System.in);
 
 		int[] arr = new int[10];
-		System.out.println(arr.length + "°³ÀÇ ¾ç¼ö ÀÔ·Â(100 ÀÌÇÏ) >> ");
+		System.out.println(arr.length + "ê°œì˜ ì–‘ìˆ˜ ìž…ë ¥(100 ì´í•˜) >> ");
 
 		for(int i = 0; i < arr.length; i++)
 		{
-			System.out.print((i+1) + "¹øÂ° ¾ç¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä. ");//¾È³» ¹®±¸
-			arr[i] = scan.nextInt();//¾ç¼ö ÀÔ·Â¹Þ±â
+			System.out.print((i+1) + "ë²ˆì§¸ ì–‘ìˆ˜ë¥¼ ìž…ë ¥í•˜ì„¸ìš”. ");//ì•ˆë‚´ ë¬¸êµ¬
+			arr[i] = scan.nextInt();//ì–‘ìˆ˜ ìž…ë ¥ë°›ê¸°
 			if(arr[i] > max)
 			{
-				max = arr[i];//ÃÖ´ë°ª ±¸ÇÏ±â
+				max = arr[i];//ìµœëŒ€ê°’ êµ¬í•˜ê¸°
 			}
 			
 			if(arr[i] < min)
 			{
-				min = arr[i];
+				min = arr[i];//ìµœì†Œê°’ êµ¬í•˜ê¸° 
 			}
 
 		}
-		System.out.println("ÃÖ´ë°ªÀº " + max + "ÀÔ´Ï´Ù.");
-		System.out.println("ÃÖ¼Ò°ªÀº " + min + "ÀÔ´Ï´Ù.");
+		System.out.println("ìµœëŒ€ê°’ì€ " + max + "ìž…ë‹ˆë‹¤.");
+		System.out.println("ìµœì†Œê°’ì€ " + min + "ìž…ë‹ˆë‹¤.");
 		
 		scan.close();
 	}
