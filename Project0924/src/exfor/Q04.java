@@ -1,5 +1,5 @@
 package exfor;
-
+//형변환
 public class Q04 {
 
 	public static void main(String[] args) {
