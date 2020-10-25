@@ -1,5 +1,6 @@
 package exarr;
 import java.util.Scanner;
+//ê·¹ì¥ ì¢Œì„ ì˜ˆì•½ í”„ë¡œê·¸ë¨
 class Sample3 {
 
 	public static void main(String[] args) {
@@ -8,26 +9,26 @@ class Sample3 {
 		final int SIZE = 10;
 		int[] seats = new int[SIZE];
 
-		while (true) { //true = ¹«ÇÑ·çÇÁ
+		while (true) { //true = ë¬´í•œë£¨í”„
 			System.out.println("---------------------");
 			for (int i = 0; i < SIZE; i++)
-				System.out.print(i+1 + " "); //1ºÎÅÍ 10±îÁö ÁÂ¼® Ãâ·Â
+				System.out.print(i+1 + " "); //1ë¶€í„° 10ê¹Œì§€ ì¢Œì„ ì¶œë ¥
 			System.out.println("\n---------------------");
-			for (int i = 0; i < SIZE; i++)//ÁÂ¼® ¿¹¾à ¿©ºÎ 0°ú 1·Î Ãâ·Â
+			for (int i = 0; i < SIZE; i++)//ì¢Œì„ ì˜ˆì•½ ì—¬ë¶€ 0ê³¼ 1ë¡œ ì¶œë ¥
 				System.out.print(seats[i] + " ");
 			System.out.println("\n---------------------");
-			System.out.print("¿øÇÏ½Ã´Â ÁÂ¼®¹øÈ£¸¦ ÀÔ·ÂÇÏ¼¼¿ä(Á¾·á´Â -1): " );//ÁÂ¼®¹øÈ£ ÀÔ·Â
+			System.out.print("ì›í•˜ì‹œëŠ” ì¢Œì„ë²ˆí˜¸ë¥¼ ì…ë ¥í•˜ì„¸ìš”(ì¢…ë£ŒëŠ” -1): " );//ì¢Œì„ë²ˆí˜¸ ì…ë ¥
 			int s = scan.nextInt();
 			if (s == -1) {
-				System.out.println("ÇÁ·Î±×·¥À» Á¾·áÇÕ´Ï´Ù.");
-				break;//-1 ÀÔ·Â ½Ã ÇÁ·Î±×·¥ Á¾·á
+				System.out.println("í”„ë¡œê·¸ë¨ì„ ì¢…ë£Œí•©ë‹ˆë‹¤.");
+				break;//-1 ì…ë ¥ ì‹œ í”„ë¡œê·¸ë¨ ì¢…ë£Œ
 			}
 			if (seats[s-1] == 0) {
 				seats[s-1] = 1;
-				System.out.println("¿¹¾àµÇ¾ú½À´Ï´Ù."); //ÁÂ¼® ¼±ÅÃ ½Ã 0À» 1·Î º¯°æ
+				System.out.println("ì˜ˆì•½ë˜ì—ˆìŠµë‹ˆë‹¤."); //ì¢Œì„ ì„ íƒ ì‹œ 0ì„ 1ë¡œ ë³€ê²½
 			}
 			else {
-				System.out.println("ÀÌ¹Ì ¿¹¾àµÈ ÁÂ¼®ÀÔ´Ï´Ù.");//¿¹¾àµÈ ÁÂ¼® ¼±ÅÃ ½Ã ¸Ş½ÃÁö Ãâ·Â
+				System.out.println("ì´ë¯¸ ì˜ˆì•½ëœ ì¢Œì„ì…ë‹ˆë‹¤.");//ì˜ˆì•½ëœ ì¢Œì„ ì„ íƒ ì‹œ ë©”ì‹œì§€ ì¶œë ¥
 			}
 			
 			scan.close();
