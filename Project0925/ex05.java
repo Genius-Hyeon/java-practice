@@ -1,4 +1,5 @@
 package ex0925;
+//피보나치 
 public class ex05 {
 
 	public static void main(String[] args) {
