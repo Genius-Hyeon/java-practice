@@ -19,7 +19,7 @@ public class Sample1 {
 		
 		for(int i=0; i<10; i++)
 		{
-			System.out.println((i+1)+"¹øÂ° »ç¶÷ÀÇ Á¡¼ö´Â "+ test [i]);
+			System.out.println((i+1)+"ë²ˆì§¸ ì‚¬ëžŒì˜ ì ìˆ˜ëŠ” "+ test[i]);
 		}
 	}
 
