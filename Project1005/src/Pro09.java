@@ -1,5 +1,5 @@
 import java.util.Scanner;
-//성적의 합계가 100점 이상이면 
+//성적의 합계가 100점 이상이면 프로그램 종료 
 public class Pro09 {
 
 	public static void main(String[] args) {
