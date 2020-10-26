@@ -1,4 +1,5 @@
 import java.util.Scanner;
+//ì„±ì ì˜ í•©ê³„ê°€ 100ì  ì´ìƒì´ë©´ 
 public class Pro09 {
 
 	public static void main(String[] args) {
@@ -10,9 +11,9 @@ public class Pro09 {
 		Scanner scan = new Scanner(System.in);
 		while (true) {
 			for(int i=0; i<name.length; i++) {
-				System.out.print((i+1) + "¹øÂ° ÇĞ»ıÀÇ ÀÌ¸§À» ÀÔ·ÂÇÏ¼¼¿ä: ");
+				System.out.print((i+1) + "ë²ˆì§¸ í•™ìƒì˜ ì´ë¦„ì„ ì…ë ¥í•˜ì„¸ìš”: ");
 				name[i] = scan.next();
-				System.out.print("ÇĞ»ıÀÇ ¼ºÀûÀ» ÀÔ·ÂÇÏ¼¼¿ä: ");
+				System.out.print("í•™ìƒì˜ ì„±ì ì„ ì…ë ¥í•˜ì„¸ìš”: ");
 				score[i] = scan.nextInt();
 				sum += score[i];
 
@@ -21,7 +22,7 @@ public class Pro09 {
 			}
 			break;
 		}
-		System.out.println("¼ºÀûÀÇ ÇÕ°è°¡ 100Á¡ ÀÌ»ó(" + sum + "Á¡)ÀÔ´Ï´Ù. ÇÁ·Î±×·¥À» Á¾·áÇÕ´Ï´Ù. ");
+		System.out.println("ì„±ì ì˜ í•©ê³„ê°€ 100ì  ì´ìƒ(" + sum + "ì )ì…ë‹ˆë‹¤. í”„ë¡œê·¸ë¨ì„ ì¢…ë£Œí•©ë‹ˆë‹¤. ");
 		
 		scan.close();
 	}
