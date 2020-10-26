@@ -12,7 +12,7 @@ public class Sample01 {
 		for (int i=0; i<test.length; i++) {
 			sum += test[i];
 		}
-		System.out.println("¹è¿­ÀÇ ÇÕ°è: " + sum);
+		System.out.println("ë°°ì—´ì˜ : " + sum);
 	}
 
 }
