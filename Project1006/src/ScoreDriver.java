@@ -1,4 +1,4 @@
-// Subject Å¬·¡½º¸¦ ½ÃÇèÇÑ´Ù
+// Subject í´ë˜ìŠ¤ë¥¼ ì‹œí—˜í•œë‹¤ 
 public class ScoreDriver {
 
 	public static void main(String[] args) {
