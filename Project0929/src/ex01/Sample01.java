@@ -12,7 +12,7 @@ public class Sample01 {
 		for (int i=0; i<test.length; i++) {
 			sum += test[i];
 		}
-		System.out.println("배열의 : " + sum);
+		System.out.println("배열의 합계 : " + sum);
 	}
 
 }
