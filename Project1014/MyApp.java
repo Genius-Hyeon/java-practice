@@ -6,7 +6,7 @@ public class MyApp {
 
 	public static void main(String[] args) {
 		JFrame mf = new JFrame();
-		mf.setTitle("Ã¹¹øÂ° ÇÁ·¹ÀÓ");
+		mf.setTitle("ì²«ë²ˆì§¸ í”„ë ˆìž„");
 		mf.setSize(300, 300);
 		mf.setVisible(true);
 	}
