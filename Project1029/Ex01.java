@@ -1,5 +1,4 @@
-//µ¿µî¼º°ú µ¿ÀÏ¼º
-
+//ë™ë“±ì„±ê³¼ ë™ì¼ì„±
 public class Ex01 {
 	
 	public static void main(String[] args) {
