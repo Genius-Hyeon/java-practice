@@ -4,8 +4,8 @@ public class ArrEx02 {
 	public static void main(String[] args) {
 		
 		final String[] fruits = new String[2];
-		fruits[0] = "Æ÷µµ";
-		fruits[1] = "»ç°ú";
+		fruits[0] = "í¬ë„";
+		fruits[1] = "ì‚¬ê³¼";
 		
 		for(String fruit : fruits) {
 			System.out.println(fruit);
