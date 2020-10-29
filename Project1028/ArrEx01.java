@@ -2,7 +2,7 @@
 public class ArrEx01 {
 
 	public static void main(String[] args) {
-		final String[] fruits = {"Æ÷µµ", "»ç°ú"};
+		final String[] fruits = {"í¬ë„", "ì‚¬ê³¼"};
 		int length = fruits.length;
 
 		for (String values : fruits) {
