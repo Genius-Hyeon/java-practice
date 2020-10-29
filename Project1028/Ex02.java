@@ -8,7 +8,7 @@ public class Ex02 {
 		
 		int data = 888;
 		double pi = 3.14;
-		String kor = "°¡³ª´Ù";
+		String kor = "ê°€ë‚˜ë‹¤";
 		String eng = "ABC";
 		
 		System.out.println(kor.hashCode());
