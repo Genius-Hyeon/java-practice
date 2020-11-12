@@ -1,5 +1,7 @@
 package kr.or.iei.datastructure;
 
+import java.security.DrbgParameters.NextBytes;
+
 public class LinkedList<T> implements List<T> {
 
 	private Node<T> head;
@@ -71,7 +73,24 @@ public class LinkedList<T> implements List<T> {
 
 	@Override
 	public boolean remove(T element) {
-		return false;
+		//1. 머리가 없다
+		if (head == null) {
+			return false;
+		}
+		//2. 머리가 있다
+		Node<T> pointer = head;
+		
+		while(pointer.getNext() != null && pointer.getData() != element) {
+			pointer.getNext();
+		}
+		final Node<T> next = pointer.getNext();
+		//1. next의 값을 pointer로
+		pointer.setData(next.getData());
+		//2. pointer의 next를 다음 노드의 다음 노드로 변경
+		pointer.setNext(next.getNext());
+		//3. pointer의 다음 노드였던 친구의 next를 null로
+		next.setNext(null);
+		return true;
 	}
 
 	@Override
@@ -86,6 +105,15 @@ public class LinkedList<T> implements List<T> {
 		public Node(T data, Node<T> next) {
 			this.data = data;
 			this.next = next;
+		}
+
+		public T getData() {
+			// TODO Auto-generated method stub
+			return data;
+		}
+		
+		public void setData(T data) {
+			this.data = data;
 		}
 
 		public Node<T> getNext() {
