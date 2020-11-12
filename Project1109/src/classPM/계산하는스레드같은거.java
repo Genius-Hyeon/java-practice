@@ -1,6 +1,6 @@
 package classPM;
 
-public class °è»êÇÏ´Â½º·¹µå°°Àº°Å extends Thread{
+public class ê³„ì‚°í•˜ëŠ”ìŠ¤ë ˆë“œê°™ì€ê±° extends Thread{
 	
 	private long data = 1;
 	

@@ -8,11 +8,11 @@ public class LinkedList<T> implements List<T> {
 
 	@Override
 	public int size() {
-		// 1. head°¡ ¾ø´Â °æ¿ì
+		// 1. headê°€ ì—†ëŠ” ê²½ìš°
 		if (head == null) {
 			return 0;
 		}
-		// 2. head°¡ ÀÖ´Â °æ¿ì
+		// 2. headê°€ ìˆëŠ” ê²½ìš°
 		int size = 0;
 		Node<T> pointer = head;
 		while (pointer != null) {
@@ -34,11 +34,11 @@ public class LinkedList<T> implements List<T> {
 
 	@Override
 	public T get(int index) {
-		// 1. head°¡ ¾ø´Â °æ¿ì
+		// 1. headê°€ ì—†ëŠ” ê²½ìš°
 		if (head == null) {
 			return null;
 		}
-		// 2. head°¡ ÀÖ´Â °æ¿ì
+		// 2. headê°€ ìˆëŠ” ê²½ìš°
 		int idx = 0;
 		Node<T> pointer = head;
 		while (pointer != null && idx != index) {
@@ -56,13 +56,13 @@ public class LinkedList<T> implements List<T> {
 	@Override
 	public boolean add(T element) {
 		final Node<T> newNode = new Node<>(element, null);
-		// 1. head°¡ ¾ø´Â °æ¿ì
+		// 1. headê°€ ì—†ëŠ” ê²½ìš°
 		if (head == null) {
 			head = newNode;
 			return true;
 		}
 
-		// 2. head°¡ ÀÖ´Â °æ¿ì
+		// 2. headê°€ ìˆëŠ” ê²½ìš°
 		Node<T> pointer = head;
 		while (pointer.getNext() != null) {
 			pointer = pointer.getNext();
@@ -73,22 +73,22 @@ public class LinkedList<T> implements List<T> {
 
 	@Override
 	public boolean remove(T element) {
-		//1. ¸Ó¸®°¡ ¾ø´Ù
+		//1. ë¨¸ë¦¬ê°€ ì—†ë‹¤
 		if (head == null) {
 			return false;
 		}
-		//2. ¸Ó¸®°¡ ÀÖ´Ù
+		//2. ë¨¸ë¦¬ê°€ ìˆë‹¤
 		Node<T> pointer = head;
 		
 		while(pointer.getNext() != null && pointer.getData() != element) {
 			pointer.getNext();
 		}
 		final Node<T> next = pointer.getNext();
-		//1. nextÀÇ °ªÀ» pointer·Î
+		//1. nextì˜ ê°’ì„ pointerë¡œ
 		pointer.setData(next.getData());
-		//2. pointerÀÇ next¸¦ ´ÙÀ½ ³ëµåÀÇ ´ÙÀ½ ³ëµå·Î º¯°æ
+		//2. pointerì˜ nextë¥¼ ë‹¤ìŒ ë…¸ë“œì˜ ë‹¤ìŒ ë…¸ë“œë¡œ ë³€ê²½
 		pointer.setNext(next.getNext());
-		//3. pointerÀÇ ´ÙÀ½ ³ëµå¿´´ø Ä£±¸ÀÇ next¸¦ null·Î
+		//3. pointerì˜ ë‹¤ìŒ ë…¸ë“œì˜€ë˜ ì¹œêµ¬ì˜ nextë¥¼ nullë¡œ
 		next.setNext(null);
 		return true;
 	}

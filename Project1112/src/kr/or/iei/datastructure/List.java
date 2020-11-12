@@ -3,42 +3,42 @@ package kr.or.iei.datastructure;
 public interface List<T> {
 
     /**
-     * @return ¿ä¼ÒÀÇ °³¼ö¸¦ ¹İÈ¯
+     * @return ìš”ì†Œì˜ ê°œìˆ˜ë¥¼ ë°˜í™˜
      */
     int size();
 
     /**
-     * @return ¿ä¼Ò°¡ ¾øÀ¸¸é true
+     * @return ìš”ì†Œê°€ ì—†ìœ¼ë©´ true
      */
     boolean isEmpty();
 
     /**
-     * @param index Ã£À» ¿ä¼ÒÀÇ À§Ä¡
-     * @return ¿ä¼Ò
+     * @param index ì°¾ì„ ìš”ì†Œì˜ ìœ„ì¹˜
+     * @return ìš”ì†Œ
      */
     T get(int index);
 
     /**
      * 
-     * @param element Ã£À» ¿ä¼Ò
-     * @return Ã£À» ¿ä¼Ò°¡ Á¸ÀçÇÏ¸é true
+     * @param element ì°¾ì„ ìš”ì†Œ
+     * @return ì°¾ì„ ìš”ì†Œê°€ ì¡´ì¬í•˜ë©´ true
      */
     boolean contains(T element);
 
     /**
-     * @param element Ãß°¡ÇÒ ¿ä¼Ò
-     * @return Ãß°¡ ¼º°ø ½Ã true
+     * @param element ì¶”ê°€í•  ìš”ì†Œ
+     * @return ì¶”ê°€ ì„±ê³µ ì‹œ true
      */
     boolean add(T element);
     
     /**
-     * @param element »èÁ¦ÇÒ ¿ä¼Ò
-     * @return »èÁ¦ ½Ã true
+     * @param element ì‚­ì œí•  ìš”ì†Œ
+     * @return ì‚­ì œ ì‹œ true
      */
     boolean remove(T element);
 
     /**
-     * ¿ä¼Ò ¸ğµÎ »èÁ¦
+     * ìš”ì†Œ ëª¨ë‘ ì‚­ì œ
      */
     void clear();
 }
