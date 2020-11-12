@@ -37,12 +37,13 @@ public class LinkedList<T> implements List<T> {
 			return null;
 		}
 		// 2. head가 있는 경우
+		int idx = 0;
 		Node<T> pointer = head;
-		while (pointer != null) {
+		while (pointer != null && idx != index) {
 			pointer = pointer.getNext();
-			return pointer.data;
+			idx++;
 		}
-		return null;
+		return pointer.data;
 	}
 
 	@Override
