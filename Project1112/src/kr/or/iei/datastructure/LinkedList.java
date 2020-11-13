@@ -50,7 +50,16 @@ public class LinkedList<T> implements List<T> {
 
 	@Override
 	public boolean contains(T element) {
-		return false;
+		// 1. 머리가 없다
+		if (head == null) {
+			return false;
+		}
+
+		Node<T> pointer = head;
+		while (pointer.getNext() != null && pointer.getData() != element) {
+			pointer = pointer.getNext();
+		}
+		return pointer.data == element;
 	}
 
 	@Override
