@@ -1,7 +1,5 @@
 package kr.or.iei.datastructure;
 
-import java.security.DrbgParameters.NextBytes;
-
 public class LinkedList<T> implements List<T> {
 
 	private Node<T> head;
