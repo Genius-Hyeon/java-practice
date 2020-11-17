@@ -6,11 +6,11 @@ import java.util.List;
 public class Singleton {
 	
 	private static Singleton INSTANCE = new Singleton();
-	private final String name = "³×";
+	private final String name = "ë„¤";
 	private final List<String> data = new ArrayList<>();
 	
 	private Singleton() {
-		//¿ÜºÎ »ı¼º ¸·±â
+		//ì™¸ë¶€ ìƒì„± ë§‰ê¸°
 	}
 	
 	public static Singleton getInstance() {
