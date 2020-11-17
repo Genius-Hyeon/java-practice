@@ -6,8 +6,8 @@ import java.util.HashMap;
 public class Application03 {
 	public static void main(String[] args) {
 		Map<String, String> map = new HashMap<>();
-		map.put("one", "ÇÏ³ª");
-		map.put("two", "µÑ");
+		map.put("one", "í•˜ë‚˜");
+		map.put("two", "ë‘˜");
 		
 		for(Map.Entry<String, String> entry : map.entrySet()) {
 			System.out.println(entry.getKey());
