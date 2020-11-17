@@ -2,9 +2,9 @@ package kr.or.iei.collectionFramework;
 
 public class HashEx02 {
 	public static void main(String[] args) {
-		String s1 = "°í¾çÀÌ";
-		String s2 = "°í¾çÀÌ";
-		String s3 = new String("°í¾çÀÌ");
+		String s1 = "ê³ ì–‘ì´";
+		String s2 = "ê³ ì–‘ì´";
+		String s3 = new String("ê³ ì–‘ì´");
 		
 		
 		System.out.println(s1.hashCode());
