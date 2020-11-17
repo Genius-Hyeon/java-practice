@@ -9,7 +9,7 @@ public class Super {
 	}
 	
 	public void print() {
-		System.out.println("ºÎ¸ğÀÓ");
+		System.out.println("ë¶€ëª¨ì„");
 	}
 	
 		
