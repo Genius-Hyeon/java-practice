@@ -1,6 +1,6 @@
 package kr.or.iei.lambda;
 
-@FunctionalInterface //ÇÔ¼ö°¡ ÇÏ³ª¸¸ Á¸ÀçÇÏ´Â Interface
+@FunctionalInterface //í•¨ìˆ˜ê°€ í•˜ë‚˜ë§Œ ì¡´ìž¬í•˜ëŠ” Interface
 interface Say {
 	int something(int a, int b);
 }
