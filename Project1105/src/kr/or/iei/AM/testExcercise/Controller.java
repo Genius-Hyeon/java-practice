@@ -7,7 +7,7 @@ public class Controller {
 		Dao dao = new Dao();
 		ArrayList<Memo> list = dao.selectAll();
 		if(list.isEmpty()) {
-			System.out.println("µ¥ÀÌÅÍ°¡ ¾ø½À´Ï´Ù.");
+			System.out.println("ë°ì´í„°ê°€ ì—†ìŠµë‹ˆë‹¤.");
 		}else {
 			System.out.println("NO\tNAME\tMSG\tWRITEDAY");
 			System.out.println("-----------------------------------");
