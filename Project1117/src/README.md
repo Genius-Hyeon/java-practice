@@ -41,26 +41,3 @@ An = A(n-1) + A(n-2)
 1. pivot 고르고
 2. 왼쪽에는 pivot보다 작은 값의 배열(리스트)
 3. 오른쪽에는 pivot보다 작은 값의 배열(리스트)
-
-pivot = 5;
-less = [3, 4, 1, 2]
-greater = [8, 9, 6, 7]
-less = sort(less)
-greater = sort(greater)
-return less + pivot + greater
-
-pivot: 5<br>
-5 3 8 4 9 1 6 2 7 
-----------------------
-l: 3 4 1 2 
-l = sort(l) //[1 2 3 4]
-g: 8 9 6 7
-g = sort(g)
-----------------------
-pivot: 3
-3 4 1 2
-----------------------
-l: 1 2
-g: 4
-
-
