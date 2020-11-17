@@ -5,7 +5,7 @@ public class Controller {
 		Dao dao = new Dao();
 		Memo m = dao.selectOne(101);
 		if(m == null) {
-			System.out.println("µ¥ÀÌÅÍ°¡ ¾ø½À´Ï´Ù.");
+			System.out.println("ë°ì´í„°ê°€ ì—†ìŠµë‹ˆë‹¤.");
 		}else {
 			System.out.println("NO\tNAME\tMSG\tWRITEDAY");
 			System.out.println("-----------------------------------");
