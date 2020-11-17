@@ -15,7 +15,7 @@ public class ThreadPriority extends Thread {
 		}
 
 		final long t2 = System.currentTimeMillis();
-		System.out.printf("%s  Á¾·á. (%d)<¼öÇà½Ã°£: %d ms\n", getName(), getPriority(), t2-t1);
+		System.out.printf("%s  ì¢…ë£Œ. (%d)<ìˆ˜í–‰ì‹œê°„: %d ms\n", getName(), getPriority(), t2-t1);
 
 
 	}
