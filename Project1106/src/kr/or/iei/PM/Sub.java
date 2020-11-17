@@ -9,6 +9,6 @@ public class Sub extends Super{
 	
 	@Override
 	public void print() {
-		System.out.println("ÀÚ½ÄÀÓ");
+		System.out.println("ìì‹ì„");
 	}
 }
