@@ -4,7 +4,7 @@ public class Application02 {
 	public static void main(String[] args) {
 		
 		Lambda02 lambda02 = (s1, s2) -> s1 + s2;
-		final String result = lambda02.getString("°í¾çÀÌ", " ±Í¿©¿ö");
+		final String result = lambda02.getString("ê³ ì–‘ì´", " ê·€ì—¬ì›Œ");
 		System.out.println(result);
 		
 		
