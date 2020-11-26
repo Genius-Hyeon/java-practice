@@ -18,7 +18,7 @@ public class Ex02 {
 			System.out.println("getAddress() : " + Arrays.toString(ipAddr));
 			System.out.print("HostAddress: ");
 
-			/**************ÇÙ½É***************/
+			/**************í•µì‹¬***************/
 			for(int i=0; i<ipAddr.length; i++) {
 				if(ipAddr[i] < 0)
 					System.out.print(ipAddr[i]+256);
