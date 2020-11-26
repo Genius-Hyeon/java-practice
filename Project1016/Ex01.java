@@ -9,7 +9,7 @@ class Car{
 
 	//final 메소드
 	public final void stop() {
-		System.out.println("Â÷¸¦ ¸ØÃã");
+		System.out.println("차를 ");
 		speed = 0;
 	}
 }
