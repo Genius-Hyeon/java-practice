@@ -7,9 +7,9 @@ class Car{
 		speed += 1;
 	}
 
-	//final ¸Þ¼Òµå
+	//final ë©”ì†Œë“œ
 	public final void stop() {
-		System.out.println("Â÷¸¦ ¸ØÃã");
+		System.out.println("Ã‚Ã·Â¸Â¦ Â¸Ã˜ÃƒÃ£");
 		speed = 0;
 	}
 }
